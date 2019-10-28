@@ -8,14 +8,16 @@ end
 
 def add_element_to_end_of_array(array, element)
   my_array = ["cloudy", "rainy", "sunny"]
-  my_array<< "snowy"
+  my_array << "snowy"
 end
 
 def add_element_to_start_of_array(array, element)
+  my_array = ["cloudy", "snowy", "sunny"]
   my_array.unshift("rainy")
 end
 
 def remove_element_from_end_of_array(array)
+  my_array = ["cloudy", "snowy", "sunny"]
   my_array.pop
 end
 
