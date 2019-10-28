@@ -9,7 +9,6 @@ end
 def add_element_to_end_of_array(array, element)
   my_array = ["winter", "summer", "spring", "fall"]
   my_array<< "snowy"
-  p my_array
 end
 
 def add_element_to_start_of_array(array, element)
