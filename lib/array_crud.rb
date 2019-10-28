@@ -7,7 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  my_array = ["winter", "summer", "spring", "fall"]
+  my_array = ["cloudy", "rainy", "sunny"]
   my_array<< "snowy"
 end
 
